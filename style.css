@@ -1,0 +1,15 @@
+:root {
+  --primary-color: #f04906;
+  --secondary-color: pink;
+}
+body {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-size: 1.2rem;
+}
+button {
+  padding: 1rem;
+  margin: 0.4;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
